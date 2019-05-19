@@ -1,0 +1,44 @@
+<!-- Game version one, without timer, pasue and restart! -->
+<!doctype html>
+<html lang="en">
+  <head>
+      <meta charset="utf-8">
+      <title>MemoryGame</title>
+      <meta name="description" content="A memory game for web applications">
+      <!-- This to link icons from Font Awesome website -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="css/style.css">
+      <!-- This to link the font used in the page -->
+      <link href="https://fonts.googleapis.com/css?family=Michroma" rel="stylesheet">
+      <!-- This to link jquery from local folder -->
+      <script src="js/jquery-3.2.1.min.js"></script>
+      <!-- This to link jquery from google CDN -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </head>
+  <body>
+      <div class="container">
+          <header class="title">
+            <h1>Memory Game <img class="brain" src="images/brain.png" alt="Image of Brain"></h1>
+          </header>
+          <section class="game-statistics">
+            <div class="clicks"><i class="fa fa-blind"></i>   Moves</div>
+            <div class="time"><i class="fa fa-clock-o"></i> </div>
+          	<ul class="score">
+          		<li><i class="fa fa-star"></i></li>
+          		<li><i class="fa fa-star"></i></li>
+          		<li><i class="fa fa-star"></i></li>
+          	</ul>
+          </section>
+          <ul class="cards-deck">
+          </ul>
+        	<ul class="interact">
+            <li class="pause-play"><i class="fa fa-pause-circle-o"></i></li>
+            <li class="restart"><i class="fa fa-repeat fa-spin"></i></li>
+          </ul>
+          <footer class="copyright">
+            <h2>Developed & Designed By <b>@Abdul</b></h2>
+          </footer>
+      </div>
+      <script src="js/interactive.js"></script>
+  </body>
+</html>
