@@ -1,6 +1,6 @@
 # Memory Game
 
-This is a Memory Game developed by @Abdul,
+This is a Memory Game developed by @AbdulSaif
 
 Introduction:
 
